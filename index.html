@@ -1,129 +1,37 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hanabi - 花美</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Noto+Sans+JP&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Noto Sans JP', sans-serif;
-      background-color: #fff9f9;
-      color: #333;
-    }
-    header {
-      background-color: #ffeef2;
-      padding: 20px;
-      text-align: center;
-    }
-    header h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: 2.5rem;
-      margin: 0;
-    }
-    header p {
-      font-size: 1.2rem;
-      color: #7a5a5a;
-    }
-    nav {
-      text-align: center;
-      margin-top: 10px;
-    }
-    nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      color: #d26b6b;
-      font-weight: bold;
-    }
-    section.hero {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 60px 20px;
-      background: linear-gradient(to right, #fff0f5, #ffe4e1);
-    }
-    section.hero h2 {
-      font-size: 2rem;
-      margin-bottom: 10px;
-    }
-    section.hero p {
-      max-width: 600px;
-      text-align: center;
-    }
-    .products-preview {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 20px;
-      padding: 40px;
-    }
-    .product {
-      background: #fff;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-      padding: 20px;
-      text-align: center;
-    }
-    .product img {
-      max-width: 100%;
-      height: 160px;
-      object-fit: cover;
-      border-radius: 8px;
-    }
-    .product h3 {
-      margin: 10px 0 5px;
-    }
-    .product p {
-      color: #999;
-      font-size: 0.9rem;
-    }
-    footer {
-      background: #ffeef2;
-      padding: 20px;
-      text-align: center;
-      font-size: 0.9rem;
-      color: #7a5a5a;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Hanabi 花美</h1>
-    <p>Beleza natural inspirada no Japão</p>
-    <nav>
-      <a href="#">Início</a>
-      <a href="#">Produtos</a>
-      <a href="#">Sobre</a>
-      <a href="#">Contato</a>
-    </nav>
-  </header>
+<header>
+  <h1>Hanabi 花美</h1>
+  <p>日本の美しさからインスピレーションを得た自然派コスメ</p>
+  <nav>
+    <a href="#">ホーム</a>
+    <a href="#">商品一覧</a>
+    <a href="#">私たちについて</a>
+    <a href="#">お問い合わせ</a>
+  </nav>
+</header>
 
-  <section class="hero">
-    <h2>Transforme sua rotina com beleza e cuidado</h2>
-    <p>Descubra cosméticos delicados, naturais e eficazes inspirados na pureza da cultura japonesa.</p>
-  </section>
+<section class="hero">
+  <h2>美とケアで日常を輝かせよう</h2>
+  <p>日本文化の純粋さに着想を得た、やさしく効果的な自然派コスメをお届けします。</p>
+</section>
 
-  <section class="products-preview">
-    <div class="product">
-      <img src="https://source.unsplash.com/featured/?cosmetics" alt="Produto 1">
-      <h3>Sabonete Facial de Arroz</h3>
-      <p>Limpeza suave com hidratação intensa</p>
-    </div>
-    <div class="product">
-      <img src="https://source.unsplash.com/featured/?skincare" alt="Produto 2">
-      <h3>Tônico de Flor de Cerejeira</h3>
-      <p>Refresca e equilibra o pH da pele</p>
-    </div>
-    <div class="product">
-      <img src="https://source.unsplash.com/featured/?makeup" alt="Produto 3">
-      <h3>Base Natural SPF 30</h3>
-      <p>Cobertura leve com proteção solar</p>
-    </div>
-  </section>
+<section class="products-preview">
+  <div class="product">
+    <img src="https://source.unsplash.com/featured/?cosmetics" alt="商品1">
+    <h3>米ぬか洗顔石鹸</h3>
+    <p>やさしく洗い、しっとり保湿</p>
+  </div>
+  <div class="product">
+    <img src="https://source.unsplash.com/featured/?skincare" alt="商品2">
+    <h3>さくらトナー</h3>
+    <p>肌をすっきり整える弱酸性化粧水</p>
+  </div>
+  <div class="product">
+    <img src="https://source.unsplash.com/featured/?makeup" alt="商品3">
+    <h3>ナチュラルUVファンデーション SPF30</h3>
+    <p>軽やかな仕上がりで紫外線対策</p>
+  </div>
+</section>
 
-  <footer>
-    &copy; 2025 Hanabi - Todos os direitos reservados. | 花美
-  </footer>
-</body>
-</html>
+<footer>
+  &copy; 2025 Hanabi - すべての権利を保有します。 | 花美
+</footer>
